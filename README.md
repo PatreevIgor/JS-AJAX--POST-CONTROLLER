@@ -6,7 +6,7 @@
 4. Add button to view: <input type="button" id="mixBut" value="Start"/>
 5. Add next js code to assets:
 
-document.addEventListener('DOMContentLoaded', function() {
+```document.addEventListener('DOMContentLoaded', function() {
   var mixBut = document.getElementById("mixBut");
   mixBut.addEventListener("click", Start);
 
@@ -35,4 +35,4 @@ document.addEventListener('DOMContentLoaded', function() {
       data: {indicator_working: 0}
     });
   }
-});
+});```
